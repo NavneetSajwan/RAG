@@ -1,0 +1,26 @@
+# Exclude compiled Python files
+__pycache__/
+
+# Exclude log files
+*.log
+
+# Exclude virtual environment directories
+venv/
+
+# Exclude IDE-specific files and directories
+.vscode/
+.idea/
+
+# Exclude package distribution files
+dist/
+build/
+*.egg-info/
+
+# Exclude local settings (e.g., secrets)
+config.ini
+
+# Exclude files generated during development or testing
+*.pyc
+*.pyo
+*.pyd
+*.db
