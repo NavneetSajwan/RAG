@@ -24,3 +24,7 @@ config.ini
 *.pyo
 *.pyd
 *.db
+
+#virtual env
+rag
+.env
