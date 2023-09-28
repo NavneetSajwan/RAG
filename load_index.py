@@ -10,8 +10,6 @@ load_dotenv()
 
 INDEX_NAME = 'llama-2-rag'
 
-print(os.environ.get("OPENAI_API_KEY"))
-print("===oooøøøøøø===================≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠")
 chat = ChatOpenAI(
     openai_api_key=os.environ.get("OPENAI_API_KEY"),
     model = "gpt-3.5-turbo"
